@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms - lets create a form </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div>
+        <h1>BESIC FORM - TA </h1>
+        <form action="post">
+            <label for="username"> Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+    </div>
+    <div>
+        <input type="radio" id="male" name="Gender" value="male">
+        <lebal for="male">male</lebal>
+        <input type="radio" id="female" name="Gender" value="female">
+        <lebal for="female">female</lebal>
+    </div>
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <lebal for="subscribe">Subscribe the newspaper</lebal>
+    </div>
+    <div>
+        <lebal for="age">Enter your age</lebal>
+        <input type="text" id="age" placeholder="Enter your age">
+    </div>
+    <div>
+        <lebal for="comment">Enter your comment</lebal>
+        <br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+        <select name="fruit">
+            <option value="apple">apple</option>
+            <option value="banana">banana</option>
+            <option value="mango">mango</option>
+        </select>
+    </div>
+
+    </form>
+</body>
+
+</html>
